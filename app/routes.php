@@ -1,11 +1,15 @@
 <?php
-
 /*
- * Home page (GET)
- */
+* Home page (GET)
+*/
 Route::get('/', [
     'as'    => 'home',
     'uses'  => 'HomeController@home'
+]);
+
+Route::get('/search', [
+    'as'    => 'get_search',
+    'uses'  => 'SearchController@getSearch'
 ]);
 
 /*
@@ -13,117 +17,31 @@ Route::get('/', [
  */
 Route::get('/user/{username}', [
     'as'        => 'profile_user',
-    'uses'      => 'profileController@user'
+    'uses'      => 'ProfileController@user'
 ]);
 
 /*
-     * View car advert with id (GET)
-     */
+* View car advert with id (GET)
+*/
 Route::get('/ad/{id}', [
     'as'    => 'view_advert_get',
     'uses'  => 'AdvertController@getViewAdvert'
 ]);
 
-/*
- * Authenticated group
- */
-Route::group(['before' => 'auth'], function()
-{
-    /*
-     * CSRF protection group
-     */
-    Route::group(['before' => 'csrf'], function()
-    {
-        /*
-        * Change Password (POST)
-        */
-        Route::post('/account/changePassword', [
-            'as'        => 'account_change_password_post',
-            'uses'      => 'AccountController@postChangePassword'
-        ]);
-
-        /*
-         * Post advert (POST)
-         */
-        Route::post('/postad/', [
-            'as'    => 'post_postad',
-            'uses'  => 'AdvertController@postPostAdvert'
-        ]);
-    });
-
-    /*
-     * Log out (GET)
-     */
-    Route::get('/account/logout', [
-        'as'        => 'account_logout',
-        'uses'      => 'accountController@getLogout'
-    ]);
-
-    /*
-     * Change Password (GET)
-     */
-    Route::get('/account/changePassword', [
-        'as'        => 'account_change_password',
-        'uses'      => 'AccountController@getChangePassword'
-    ]);
-
-    /*
-    * Post new add (GET)
-    */
-    Route::get('/postad/', [
-        'as'    => 'get_postad',
-        'uses'  => 'AdvertController@getPostAdvert'
-    ]);
-});
 
 
-/*
+
+
+
+/*  //////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
  * Unauthenticated group
  */
 Route::group(['before' => 'guest'], function()
 {
     /*
-     * CSRF protection group
-     */
-    Route::group(['before' => 'csrf'], function()
-    {
-        /*
-         * Login user (POST)
-         */
-        Route::post('/account/login', [
-            'as'    => 'account_login_post',
-            'uses'  => 'AccountController@postLogin'
-        ]);
-
-        /*
-         * Register account (POST)
-         */
-        Route::post('/account/register', [
-            'as'    => 'account_register_post',
-            'uses'  => 'AccountController@postregister'
-        ]);
-
-        /*
-         * Forgot password (POST)
-         */
-        Route::post('/account/forgot-password', [
-            'as'    => 'account_forgot_password_post',
-            'uses'  => 'AccountController@postForgotPassword'
-        ]);
-
-        /*
-         * Forgot password (POST)
-         */
-        Route::post('/dealer/register', [
-            'as'    => 'dealer_register_post',
-            'uses'  => 'DealerController@postDealerRegister'
-        ]);
-
-    });
-
-    /*
-     * Log in Form (GET)
-     */
+ * Log in Form (GET)
+ */
     Route::get('/account/login', [
         'as'    => 'account_login',
         'uses'  => 'AccountController@getLogin'
@@ -177,4 +95,96 @@ Route::group(['before' => 'guest'], function()
         'uses'  => 'DealerController@getDealerRegister'
     ]);
 
+    /*
+     * CSRF protection group
+     */
+    Route::group(['before' => 'csrf'], function()
+    {
+        /*
+         * Login user (POST)
+         */
+        Route::post('/account/login', [
+            'as'    => 'account_login_post',
+            'uses'  => 'AccountController@postLogin'
+        ]);
+
+        /*
+         * Register account (POST)
+         */
+        Route::post('/account/register', [
+            'as'    => 'account_register_post',
+            'uses'  => 'AccountController@postregister'
+        ]);
+
+        /*
+         * Forgot password (POST)
+         */
+        Route::post('/account/forgot-password', [
+            'as'    => 'account_forgot_password_post',
+            'uses'  => 'AccountController@postForgotPassword'
+        ]);
+
+        /*
+         * Forgot password (POST)
+         */
+        Route::post('/dealer/register', [
+            'as'    => 'dealer_register_post',
+            'uses'  => 'DealerController@postDealerRegister'
+        ]);
+
+    });
+});
+
+
+/* //////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+ * Authenticated group
+ */
+Route::group(['before' => 'auth'], function()
+{
+    /*
+     * CSRF protection group
+     */
+    Route::group(['before' => 'csrf'], function()
+    {
+        /*
+        * Change Password (POST)
+        */
+        Route::post('/account/changePassword', [
+            'as'        => 'account_change_password_post',
+            'uses'      => 'AccountController@postChangePassword'
+        ]);
+
+        /*
+         * Post advert (POST)
+         */
+        Route::post('/postad', [
+            'as'    => 'post_postad',
+            'uses'  => 'AdvertController@postPostAdvert'
+        ]);
+    });
+
+    /*
+     * Log out (GET)
+     */
+    Route::get('/account/logout', [
+        'as'        => 'account_logout',
+        'uses'      => 'AccountController@getLogout'
+    ]);
+
+    /*
+     * Change Password (GET)
+     */
+    Route::get('/account/changePassword', [
+        'as'        => 'account_change_password',
+        'uses'      => 'AccountController@getChangePassword'
+    ]);
+
+    /*
+    * Post new add (GET)
+    */
+    Route::get('/postad', [
+        'as'    => 'get_postad',
+        'uses'  => 'AdvertController@getPostAdvert'
+    ]);
 });

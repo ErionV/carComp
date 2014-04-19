@@ -11,8 +11,9 @@
         <div class="col-xs-8">
             <form class="navbar-form text-center" role="search">
                 <div class="form-group">
-                    {{ Form::open() }}
-                    {{ Form::text('s', null,  ['class' => 'form-control', 'id' => 'search_bar', 'placeholder' => 'Search']) }}
+                    {{ Form::open(['action' => 'SearchController@getSearch', 'method' => 'GET']) }}
+                        {{ Form::input('search', 's', null, ['class' => 'form-control', 'id' => 'search_bar', 'placeholder' => 'Search...']) }}
+                        {{ Form::submit('Search',['class' => 'btn btn-primary pull-right']); }}
                     {{ Form::close() }}
                 </div>
             </form>

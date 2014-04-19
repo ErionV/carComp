@@ -13,8 +13,7 @@ class HomeController extends BaseController
 
         //Returns home view with data for car MAKE dropdown
         return View::make('home')
-               ->with('car_make_list', $car_make_list)
-               ->with('car_model_list', $car_model_list);
+            ->with('car_make_list', $car_make_list)
+            ->with('car_model_list', $car_model_list);
     }
-
  }
