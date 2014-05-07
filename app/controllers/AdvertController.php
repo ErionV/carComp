@@ -90,4 +90,17 @@ class AdvertController extends BaseController
                     ->with('images', $images);
         }
     }
+
+    public function adSearch()
+    {
+        $query = Input::get('s');
+
+        if($query)
+        {
+            $ads = Advert::where('title', 'LIKE', "%$query%")->get();
+
+            return View::make('advert.searchAdvert')
+                ->with('ads', $ads);
+        }
+    }
 }

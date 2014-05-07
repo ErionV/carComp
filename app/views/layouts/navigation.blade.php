@@ -9,14 +9,12 @@
         </div>
 
         <div class="col-xs-8">
-            <form class="navbar-form text-center" role="search">
+            {{ Form::open(['action' => 'ad_search', 'method' => 'GET', 'class' => 'navbar-form text-center']) }}
                 <div class="form-group">
-                    {{ Form::open(['action' => 'home', 'method' => 'GET']) }}
                         {{ Form::input('search', 's', null, ['class' => 'form-control', 'id' => 'search_bar', 'placeholder' => 'Search...']) }}
                         {{ Form::submit('Search',['class' => 'btn btn-primary pull-right']); }}
-                    {{ Form::close() }}
                 </div>
-            </form>
+            {{ Form::close() }}
         </div>
 
         <div class="col-xs-1">

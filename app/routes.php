@@ -6,6 +6,12 @@ Route::get('/', [
     'uses'  => 'HomeController@home'
 ]);
 
+//Advert Search (GET)
+Route::get('/search/', [
+    'as'    => 'ad_search',
+    'uses'  => 'AdvertController@adSearch'
+]);
+
 //Show user profile (GET)
 Route::get('/user/{username}', [
     'as'        => 'profile_user',
