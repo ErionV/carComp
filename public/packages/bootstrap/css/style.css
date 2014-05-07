@@ -139,7 +139,6 @@ textarea.form-control{
     max-height: 150px;
     max-width: 100%;
     resize: none;
-
 }
 
 .navbar1{
@@ -169,4 +168,18 @@ textarea.form-control{
     color: #FFF;
     z-index: 200;
 
+}
+
+.carAdImage	img{
+    height: 250px;
+    width: 250px;
+}
+
+.descriptionWell{
+    background-color: transparent;
+}
+
+.separator{
+    max-height: 3px;
+    background-color:#CDCBCB;
 }

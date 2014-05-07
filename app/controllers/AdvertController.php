@@ -90,5 +90,4 @@ class AdvertController extends BaseController
                     ->with('images', $images);
         }
     }
-
 }

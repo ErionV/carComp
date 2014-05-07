@@ -41,7 +41,25 @@
     <div class="row">
         <div class="col-md-6">
 <!--     To be added if multiple picture needed     ['multiple' => true])-->
-            {{Form::file('image')}}
+
+            {{Form::file('image', ['id' => 'uploadImage', 'onchange' => 'PreviewImage();'])}}
+            <img id="uploadPreview" style="width: 455px; height: 343px;" />
+            <script type="text/javascript">
+
+                function PreviewImage() {
+                    var oFReader = new FileReader();
+                    oFReader.readAsDataURL(document.getElementById("uploadImage").files[0]);
+
+                    oFReader.onload = function (oFREvent) {
+                        document.getElementById("uploadPreview").src = oFREvent.target.result;
+                    };
+                };
+
+            </script>
+
+
+
+
         </div>
         <div class="col-md-3">
             <div class="interactionInfo">
@@ -77,14 +95,6 @@
                 </p>
             </div>
         </div>
-<!--        <div class="col-md-3">-->
-<!--            <div class="well descriptionWell">-->
-<!--                <h4>Description:</h4>-->
-<!--                <p>-->
-<!--                    {{ Form::textarea('description', null, ['class'=>'form-control', 'placeholder'=>'Vehicle description']) }}-->
-<!--                </p>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 
     <div class="row">

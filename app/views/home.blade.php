@@ -47,7 +47,8 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-lg btn-primary form-group col-md-12">Search</button>
+                <button type="submit" class="btn btn-lg btn-primary form-group col-md-10">Search</button>
+                <button type="submit" class="btn btn-lg btn-primary form-group glyphicon glyphicon-refresh col-md-2"></button>
 
             </div>
             <div class="col-md-8 lamboTemp">

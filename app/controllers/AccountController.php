@@ -93,7 +93,7 @@ class AccountController extends BaseController {
             $user = User::find(Auth::user()->id);
 
             //Check if password provided was correct
-            if(Hash::check(Input::get('password_old'), $user->getAuthPassword()))
+            if(Hash::check(Input::get('old_password'), $user->getAuthPassword()))
             {
                 $user->password = Hash::make(Input::get('password'));
 

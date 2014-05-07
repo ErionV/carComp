@@ -5,6 +5,20 @@ class HomeController extends BaseController
 
     public function home()
     {
+        $query = Input::get('s');
+
+
+        if($query)
+        {
+            $ads = Advert::where('title', 'LIKE', "%$query%")->get();
+
+//            $image = CarPics::whereAdvert_id($ads->id)->first();
+
+            return View::make('advert.searchAdvert')
+                    ->with('ads', $ads);
+//                    ->with('image', $image);
+        }
+
         //Creates array of all data in car_makes table for dropdown list
         $car_make_list = ['' => 'Make ', CarMakes::lists('car_make', 'id')];
 

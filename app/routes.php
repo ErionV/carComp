@@ -6,11 +6,6 @@ Route::get('/', [
     'uses'  => 'HomeController@home'
 ]);
 
-Route::get('/search', [
-    'as'    => 'get_search',
-    'uses'  => 'SearchController@getSearch'
-]);
-
 //Show user profile (GET)
 Route::get('/user/{username}', [
     'as'        => 'profile_user',
