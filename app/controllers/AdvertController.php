@@ -97,10 +97,16 @@ class AdvertController extends BaseController
 
         if($query)
         {
-            $ads = Advert::where('title', 'LIKE', "%$query%")->get();
+            $ads = Advert::where('title', 'LIKE', "%$query%")->paginate(10);
 
             return View::make('advert.searchAdvert')
                 ->with('ads', $ads);
         }
+    }
+
+    public function getAdvertCompare()
+    {
+//        return  View::make('advert.postAdvert');
+        return View::make('advert.compareAdvert');
     }
 }

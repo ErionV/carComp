@@ -7,6 +7,8 @@ class UsersTableSeeder extends Seeder {
 		// Uncomment the below to wipe the table clean before populating
 		// DB::table('users')->truncate();
 
+        User::truncate();
+
 		$users = [
             [   'email'         => 'admin@hotmail.com',
                 'username'      => 'admin',

@@ -24,7 +24,11 @@ Route::get('/ad/{id}', [
     'uses'  => 'AdvertController@getViewAdvert'
 ]);
 
-
+//View car advert with id (GET)
+Route::get('/compare/', [
+    'as'    => 'ad_compare',
+    'uses'  => 'AdvertController@getAdvertCompare'
+]);
 
 //////////////////////////////////////////////////////////////////////////
 //Unauthenticated group

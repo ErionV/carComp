@@ -170,16 +170,37 @@ textarea.form-control{
 
 }
 
-.carAdImage	img{
-    height: 250px;
-    width: 250px;
+.carAdImage    img{
+    margin-top: 13px;
+    width: auto;
+    height: 130px;
 }
 
-.descriptionWell{
-    background-color: transparent;
+.descriptionTitle h5{
+    margin-top: -2px;
+}
+
+.descriptionAd{
+    height: 79px;
 }
 
 .separator{
     max-height: 3px;
     background-color:#CDCBCB;
+}
+
+.catagoriesAd .list-group-item{
+    padding: 5px 15px;
+    font-size: 11px;
+}
+
+.adButtons .btn-group-vertical{
+    margin-top: 30px;
+}
+
+.compareInfo ul li{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 10px;
 }
