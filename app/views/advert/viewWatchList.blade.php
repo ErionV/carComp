@@ -52,6 +52,8 @@
 
         @endforeach
 
+        <div class="col-md-12 text-center">{{$watchList->links()}}</div>
+
     @else
 
         <h3>No results, sorry</h3>

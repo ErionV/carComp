@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="981ede56-714e-45b1-b855-c5b9676ee56f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Advert.php" afterPath="$PROJECT_DIR$/app/models/Advert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AdvertController.php" afterPath="$PROJECT_DIR$/app/controllers/AdvertController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" afterPath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php" />
     </list>
     <ignored path="carComp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +38,7 @@
       <file leaf-file-name="AdvertController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="9" selection-start="4228" selection-end="4228" vertical-scroll-proportion="-38.25" vertical-offset="1167" max-vertical-offset="2445">
+            <state line="148" column="44" selection-start="4471" selection-end="4471" vertical-scroll-proportion="-47.0" vertical-offset="1092" max-vertical-offset="2370">
               <folding />
             </state>
           </provider>
@@ -58,7 +47,16 @@
       <file leaf-file-name="viewWatchList.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.02347418" vertical-offset="0" max-vertical-offset="1278">
+            <state line="54" column="55" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="1278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchAdvert.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="8" selection-start="2901" selection-end="2993" vertical-scroll-proportion="-38.125" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -793,23 +791,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="3070" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="17" selection-start="3733" selection-end="3733" vertical-scroll-proportion="-32.291668" vertical-offset="1220" max-vertical-offset="2505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="9" selection-start="4228" selection-end="4228" vertical-scroll-proportion="-38.25" vertical-offset="1167" max-vertical-offset="2445">
           <folding />
         </state>
       </provider>
@@ -849,9 +833,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="8" selection-start="2901" selection-end="2993" vertical-scroll-proportion="-38.125" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="44" selection-start="4471" selection-end="4471" vertical-scroll-proportion="-47.0" vertical-offset="1092" max-vertical-offset="2370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.02347418" vertical-offset="0" max-vertical-offset="1278">
+        <state line="54" column="55" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>

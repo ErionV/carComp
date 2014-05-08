@@ -142,16 +142,11 @@ class AdvertController extends BaseController
 
     public function getWatchList()
     {
-//        //Create LIKE query from input
-//        $watchList = Watch::join('users', 'watch.user_id', '=', 'users.id')
-//                      ->where('user_id', Auth::user()->id);
-//
-        //Create LIKE query from input
-        $watchList = Watch::all();
-
+        $watchList = Watch::paginate(10);
 
         //Redirects to searchAdvert page and send values
         return View::make('advert.viewWatchList')
             ->with('watchList', $watchList);
+
     }
 }
