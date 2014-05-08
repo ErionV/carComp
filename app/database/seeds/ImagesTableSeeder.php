@@ -15,7 +15,7 @@ class ImagesTableSeeder extends Seeder
 		{
 			CarPics::create([
                 'advert_id'     => $index,
-                'image'         => '1399417108-Ck87tjcaDh.jpeg'
+                'image'         => '1398133686-LRBF594xKX.jpeg'
 			]);
 		}
 	}

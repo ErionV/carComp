@@ -1,8 +1,9 @@
 body{
 	background-color: #E6E3E3;
-	}
+}
 
-.navbar-form .form-control {
+.navbar-form
+.form-control {
     margin-left: 5px;
     margin-right: 5px;
     width: 100px;
@@ -94,11 +95,12 @@ a,a:hover,a:focus,a:active{
     outline: 0;
 }
 
-.descriptionWell,.pointsWell{
+.descriptionWell,
+.pointsWell {
     margin-top: 20px;
 }
 
-.productNameAndPrice{
+.productNameAndPrice {
     background-color: #232323;
 }
 
@@ -112,11 +114,13 @@ a,a:hover,a:focus,a:active{
     color: #787878;
 }
 
-.pointsWell .glyphicon-plus{
+.pointsWell
+.glyphicon-plus {
     color: #16CC02;
 }
 
-.pointsWell .glyphicon-minus{
+.pointsWell
+.glyphicon-minus {
     color: #F33;
 }
 
@@ -167,40 +171,62 @@ textarea.form-control{
     text-align: right;
     color: #FFF;
     z-index: 200;
-
-}
-
-.carAdImage    img{
-    margin-top: 13px;
-    width: auto;
-    height: 130px;
 }
 
 .descriptionTitle h5{
     margin-top: -2px;
 }
 
-.descriptionAd{
+.descriptionAd {
     height: 79px;
 }
 
-.separator{
-    max-height: 3px;
+.separator {
+    height:4px;
+    max-height: 4px;
     background-color:#CDCBCB;
 }
 
-.catagoriesAd .list-group-item{
+.catagoriesAd
+.list-group-item {
     padding: 5px 15px;
     font-size: 11px;
 }
 
-.adButtons .btn-group-vertical{
+.adButtons
+.btn-group-vertical {
     margin-top: 30px;
 }
 
-.compareInfo ul li{
+.compareInfo ul li {
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 3px;
     padding-bottom: 10px;
+}
+
+.removeLinkDec a {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+
+.removeLinkDec a:hover,
+.removeLinkDec a:focus,
+.removeLinkDec a:active {
+    text-decoration: none;
+    color: #333;
+}
+
+.carAdImage {
+    height: 130px;
+    overflow: hidden;
+    margin-top: 13px;
+}
+
+.carAdImage img{
+    height: 140px;
+    left: -28px;
+    top: -5px;
+    position: relative;
 }

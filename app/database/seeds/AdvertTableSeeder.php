@@ -14,11 +14,11 @@ class AdvertTableSeeder extends Seeder {
                 'make'          => $faker->word,
                 'model'         => $faker->word,
                 'title'         => $faker->sentence(2),
-                'description'   => $faker->paragraph(2),
-                'price'         => $faker->numberBetween(800, 100000),
+                'description'   => $faker->paragraph(8),
+                'price'         => $faker->numberBetween(800, 69000),
                 'gearbox'       => $faker->word,
                 'fuel_type'     => $faker->word,
-                'mileage'       => $faker->numberBetween(45, 300000),
+                'mileage'       => $faker->numberBetween(45, 16000),
                 'colour'        => $faker->colorName
             ]);
         }

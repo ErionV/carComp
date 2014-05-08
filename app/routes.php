@@ -130,6 +130,18 @@ Route::group(['before' => 'auth'], function()
         ]);
     });
 
+    //View Watch List (GET)
+    Route::get('/watchlist/', [
+        'as'    => 'get_watchList',
+        'uses'  => 'AdvertController@getWatchList'
+    ]);
+
+    //Watch advert (GET)
+    Route::get('/watch/{id}', [
+        'as'    => 'watch_advert',
+        'uses'  => 'AdvertController@getAddWatch'
+    ]);
+
     //Log out (GET)
     Route::get('/account/logout', [
         'as'        => 'account_logout',

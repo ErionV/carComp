@@ -2,317 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="981ede56-714e-45b1-b855-c5b9676ee56f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1396914358-IOueiYIZdo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1397763298-xOF8yOwk7l.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1399460252-hIjC1h0Qvm.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/NullGenerator.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.php" afterPath="$PROJECT_DIR$/.env.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" afterPath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/.travis.yml" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.travis.yml" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/ASN1.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/ASN1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractAdapter.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/Tests/AbstractProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/Tests/AbstractProcessTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/RememberMe/AbstractRememberMeServices.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/RememberMe/AbstractRememberMeServices.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Dbal/AclProvider.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Dbal/AclProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AdapterInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_US/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_US/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_NL/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_NL/Address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Address.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Advert.php" afterPath="$PROJECT_DIR$/app/models/Advert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AdvertController.php" afterPath="$PROJECT_DIR$/app/controllers/AdvertController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/AnonymousAuthenticationProvider.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/AnonymousAuthenticationProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Application.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Base.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/BaseTest.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/BaseTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Permission/BasicPermissionMap.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Permission/BasicPermissionMap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/BinaryFileResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup.php" afterPath="$PROJECT_DIR$/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Bundle/Bundle.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Bundle/Bundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/patchwork/utf8/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/patchwork/utf8/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.mdown" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.mdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/CHANGES" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/laravel/framework/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Extractor/ChainExtractor.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Extractor/ChainExtractor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/browser-kit/Symfony/Component/BrowserKit/Client.php" afterPath="$PROJECT_DIR$/vendor/symfony/browser-kit/Symfony/Component/BrowserKit/Client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/ColumnTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/ColumnTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Mandango/ColumnTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Mandango/ColumnTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/ColumnTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/ColumnTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Company.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pl_PL/Company.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pl_PL/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Company.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/Company.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/Company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Comparator/Comparator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Comparator/Comparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ConfigPublisher.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ConfigPublisher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Container.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Container.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/ContextListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/ContextListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Generators/ControllerGenerator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Generators/ControllerGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/browser-kit/Symfony/Component/BrowserKit/CookieJar.php" afterPath="$PROJECT_DIR$/vendor/symfony/browser-kit/Symfony/Component/BrowserKit/CookieJar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Crawler.php" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Crawler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/CsvFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/CsvFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/CustomFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/CustomFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DateRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DateRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/DateTime.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/DateTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DepthRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DepthRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Domain/DoctrineAclCache.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Domain/DoctrineAclCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Documentor.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Documentor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/EntityPopulator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/EntityPopulator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Mandango/EntityPopulator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Mandango/EntityPopulator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/EntityPopulator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/EntityPopulator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Symfony/Component/Debug/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Symfony/Component/Debug/ErrorHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Symfony/Component/Debug/Tests/ErrorHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Symfony/Component/Debug/Tests/ErrorHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/ExcludeDirectoryFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/ExcludeDirectoryFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authorization/Voter/ExpressionVoter.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authorization/Voter/ExpressionVoter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/File.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/MimeType/FileBinaryMimeTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/MimeType/FileBinaryMimeTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/FileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/FileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Config/FileEnvironmentVariablesLoader.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Config/FileEnvironmentVariablesLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/FileProfilerStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/FileProfilerStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FileTypeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FileTypeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilecontentFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilecontentFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/MimeType/FileinfoMimeTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/MimeType/FileinfoMimeTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilenameFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilenameFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Tests/FinderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Tests/FinderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Tests/FormTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Tests/FormTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Generator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Generator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Guard.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Guard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasMany.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/IcuDatFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/IcuDatFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/IcuResFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/IcuResFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/IcuResFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/IcuResFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Image.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/IniFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/IniFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Math/BigInteger/InternalTest.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Math/BigInteger/InternalTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Internet.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Internet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Internet.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Internet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Internet.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Internet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sk_SK/Internet.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sk_SK/Internet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Interval.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Interval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/IronConnector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/IronConnector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/JsonFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/JsonFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/JsonFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/JsonFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PHPParser/Lexer.php" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PHPParser/Lexer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Lorem.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Lorem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Capsule/Manager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Capsule/Manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Manager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MemcacheSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MemcacheSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MemcachedSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MemcachedSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/MemcachedStore.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/MemcachedStore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageCatalogue.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageCatalogue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageCatalogueInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageCatalogueInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageSelector.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MessageSelector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MetadataAwareInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/MetadataAwareInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationCreator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Miscellaneous.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Miscellaneous.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/MoFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/MoFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/MoFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/MoFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MongoDbSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/MongoDbSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphOne.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphOne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/MultiplePcreFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/MultiplePcreFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Dbal/MutableAclProvider.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Dbal/MutableAclProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Guesser/Name.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Guesser/Name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/Session/Storage/NativeSessionStorageTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/Session/Storage/NativeSessionStorageTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/NullSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/NullSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Domain/ObjectIdentityRetrievalStrategy.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Acl/Domain/ObjectIdentityRetrievalStrategy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/PackageCreator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/PackageCreator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/PathFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/PathFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Payment.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/PdoProfilerStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/PdoProfilerStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/PdoSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Handler/PdoSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_US/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_US/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/it_IT/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/it_IT/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ja_JP/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ja_JP/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/lv_LV/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/lv_LV/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_BE/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_BE/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_NL/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/nl_NL/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pl_PL/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pl_PL/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ro_MD/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ro_MD/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ro_RO/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ro_RO/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ru_RU/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ru_RU/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sk_SK/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sk_SK/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_Cyrl_RS/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_Latn_RS/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_Latn_RS/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_RS/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sr_RS/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/uk_UA/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/uk_UA/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/Person.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/PersonTest.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/PersonTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_AU/PhoneNumber.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/en_AU/PhoneNumber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/PhoneNumber.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/tr_TR/PhoneNumber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/PhoneNumber.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/PhoneNumber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/PhpFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/PhpFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/PluralizationRules.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/PluralizationRules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Tests/PluralizationRulesTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Tests/PluralizationRulesTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/PoFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/PoFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/PoFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/PoFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/Populator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/Populator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/Populator.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/ORM/Propel/Populator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/PreAuthenticatedAuthenticationProvider.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/PreAuthenticatedAuthenticationProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/Process.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/Process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/ProcessBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/ProcessBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/ProcessPipes.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Symfony/Component/Process/ProcessPipes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/Profiler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Profiler/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/ProviderOverrideTest.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/ProviderOverrideTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/QtFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/QtFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/README.md" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/RSA.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/RSA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/RecursiveDirectoryIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/RecursiveDirectoryIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/RedisQueue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/RedisQueue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisTaggedCache.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisTaggedCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/RequestStack.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/RequestStack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/ResponseTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/ResponseTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Symfony/Component/Routing/Annotation/Route.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Symfony/Component/Routing/Annotation/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/RoutesCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/RoutesCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/SQLiteConnector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/SQLiteConnector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Net/SSH2FunctionalTest.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Net/SSH2FunctionalTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Net/SSH2Test.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Net/SSH2Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Seeder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Seeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Proxy/SessionHandlerProxy.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Proxy/SessionHandlerProxy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/SimpleFormAuthenticationListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/SimpleFormAuthenticationListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/SizeRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Symfony/Component/Finder/Iterator/SizeRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/Store.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/Store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Math/BigInteger/TestCase.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/tests/Math/BigInteger/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Field/TextareaFormField.php" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Field/TextareaFormField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Csrf/TokenGenerator/TokenGeneratorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Csrf/TokenGenerator/TokenGeneratorInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Symfony/Component/CssSelector/Parser/TokenStream.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Symfony/Component/CssSelector/Parser/TokenStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/TranslatorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/TranslatorInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/TripleDES.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/TripleDES.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Twofish.php" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Twofish.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/User/User.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/User/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/UserAgent.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/UserAgent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/UserAuthenticationProvider.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Authentication/Provider/UserAuthenticationProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Validator/Constraints/UserPassword.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Core/Validator/Constraints/UserPassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Uuid.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Uuid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/X509AuthenticationListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/X509AuthenticationListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Tests/Firewall/X509AuthenticationListenerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/security/Symfony/Component/Security/Http/Tests/Firewall/X509AuthenticationListenerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/XliffFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/XliffFileDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/XliffFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Loader/XliffFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/YamlFileDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Symfony/Component/Translation/Dumper/YamlFileDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/autoload.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/build/build.xml" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/build/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/changes.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/changes.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/build/code-sniffer-ruleset.xml" afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/build/code-sniffer-ruleset.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/composer.json" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Remote/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Remote/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/composer.json" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/database.php" afterPath="$PROJECT_DIR$/app/config/local/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.blade.php" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/installing.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/installing.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/bootstrap/js/myJSFuncs.js" afterPath="$PROJECT_DIR$/public/packages/bootstrap/js/myJSFuncs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/readme.md" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" afterPath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/test.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carComp.iws" />
@@ -339,7 +40,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="2325">
+            <state line="133" column="17" selection-start="3733" selection-end="3733" vertical-scroll-proportion="-32.291668" vertical-offset="1220" max-vertical-offset="2505">
               <folding />
             </state>
           </provider>
@@ -348,61 +49,43 @@
       <file leaf-file-name="AdvertController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="74" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-40.416668" vertical-offset="515" max-vertical-offset="1770">
+            <state line="139" column="9" selection-start="4228" selection-end="4228" vertical-scroll-proportion="-38.25" vertical-offset="1167" max-vertical-offset="2445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchAdvert.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php">
+      <file leaf-file-name="viewWatchList.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="68" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.60956174" vertical-offset="0" max-vertical-offset="1255">
+            <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.02347418" vertical-offset="0" max-vertical-offset="1278">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postAdvertForm.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php">
+      <file leaf-file-name="Advert.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Advert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="21" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-14.583333" vertical-offset="400" max-vertical-offset="1665">
+            <state line="15" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
+      <file leaf-file-name="Watch.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Watch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="204" selection-end="204" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="615">
+            <state line="17" column="55" selection-start="326" selection-end="326" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImagesTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="183" selection-end="183" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvertTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="179" selection-end="179" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="270" selection-end="270" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
+            <state line="17" column="8" selection-start="345" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -432,7 +115,6 @@
         <option value="$PROJECT_DIR$/app/controllers/AccountController.php" />
         <option value="$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php" />
         <option value="$PROJECT_DIR$/bootstrap/start.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env.php" />
         <option value="$PROJECT_DIR$/app/config/local/database.php" />
@@ -440,19 +122,25 @@
         <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/views/advert/compareAdverts.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/advert/compareAdvert.blade.php" />
-        <option value="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/database/seeds/AdverTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/models/Advert.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/controllers/AdvertController.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/navigationTwo.blade.php" />
         <option value="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" />
+        <option value="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_05_07_214656_create_watch_table.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/models/Advert.php" />
+        <option value="$PROJECT_DIR$/app/models/Watch.php" />
+        <option value="$PROJECT_DIR$/app/controllers/AdvertController.php" />
+        <option value="$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php" />
       </list>
     </option>
   </component>
@@ -517,6 +205,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -536,6 +256,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,6 +303,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -568,7 +416,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../carComp" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -740,11 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.23455825" vertical-offset="0" max-vertical-offset="1279">
@@ -815,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="906" selection-end="936" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07171315" vertical-offset="0" max-vertical-offset="1255">
@@ -843,20 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="2325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="19" selection-start="2787" selection-end="2787" vertical-scroll-proportion="0.8732719" vertical-offset="1863" max-vertical-offset="3165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="43" selection-start="274" selection-end="274" vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="735">
@@ -874,9 +696,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/1398133686-LRBF594xKX.jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/1399417108-Ck87tjcaDh.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_03_06_175135_create_advert_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="85" selection-start="424" selection-end="467" vertical-scroll-proportion="0.19123507" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="270" selection-end="270" vertical-scroll-proportion="0.17928287" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_03_07_024121_create_car_ad_images_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="435" selection-end="435" vertical-scroll-proportion="0.19123507" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="927" selection-end="927" vertical-scroll-proportion="0.4183267" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/CarData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1279">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="59" selection-start="442" selection-end="460" vertical-scroll-proportion="0.19323671" vertical-offset="0" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/1397763474-yQwThZaEt2.jpeg">
@@ -884,68 +755,103 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Advert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="39" selection-end="187" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/1399402921-Q4ERAbonKr.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/1399417108-Ck87tjcaDh.jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/1398133686-LRBF594xKX.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="270" selection-end="270" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="183" selection-end="183" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
+        <state line="17" column="57" selection-start="322" selection-end="322" vertical-scroll-proportion="0.19953051" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigationTwo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="179" selection-end="179" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="480">
+        <state line="6" column="43" selection-start="208" selection-end="208" vertical-scroll-proportion="0.07042254" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/public/packages/bootstrap/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="204" selection-end="204" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="615">
+        <state line="184" column="14" selection-start="2516" selection-end="2516" vertical-scroll-proportion="-5.076923" vertical-offset="3916" max-vertical-offset="5214">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/navigation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="74" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-40.416668" vertical-offset="515" max-vertical-offset="1770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-14.583333" vertical-offset="400" max-vertical-offset="1665">
+        <state line="23" column="64" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="68" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.60956174" vertical-offset="0" max-vertical-offset="1255">
+        <state line="0" column="0" selection-start="0" selection-end="3070" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="17" selection-start="3733" selection-end="3733" vertical-scroll-proportion="-32.291668" vertical-offset="1220" max-vertical-offset="2505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="9" selection-start="4228" selection-end="4228" vertical-scroll-proportion="-38.25" vertical-offset="1167" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="67" selection-start="510" selection-end="510" vertical-scroll-proportion="0.19953051" vertical-offset="0" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_07_214656_create_watch_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.09389672" vertical-offset="0" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="345" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Watch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="55" selection-start="326" selection-end="326" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Advert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.02347418" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>

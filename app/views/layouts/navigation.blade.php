@@ -23,6 +23,7 @@
 
                 <div id="popover-content" style="display: none">
                     <p class="login_nav">{{ HTML::link(URL::route('get_postad') , 'Post Ad', ['class' => '']) }}</p>
+                    <p class="login_nav">{{ HTML::link(URL::route('get_watchList') , 'Watch List', ['class' => '']) }}</p>
                     <p class="login_nav">{{ HTML::link(URL::route('account_change_password') , 'Change Password', ['class' => '']) }}</p>
                     <p class="login_nav">{{ HTML::link(URL::route('account_logout'), 'Logout', ['class' => '']) }}</p>
                 </div>

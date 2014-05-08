@@ -93,12 +93,16 @@ class AdvertController extends BaseController
 
     public function adSearch()
     {
+        //Gets search field user input
         $query = Input::get('s');
 
+        //Checks if there is Input value
         if($query)
         {
+            //Create LIKE query from input
             $ads = Advert::where('title', 'LIKE', "%$query%")->paginate(10);
 
+            //Redirects to searchAdvert page and send values
             return View::make('advert.searchAdvert')
                 ->with('ads', $ads);
         }
@@ -106,7 +110,48 @@ class AdvertController extends BaseController
 
     public function getAdvertCompare()
     {
-//        return  View::make('advert.postAdvert');
         return View::make('advert.compareAdvert');
+    }
+
+    public function getAddWatch($id)
+    {
+        //Check if user is logged in
+        if(Auth::check())
+        {
+            //Queries to to
+            $userWatch = Watch::where('user_id', Auth::user()->id)
+                           ->where('advert_id', $id)
+                           ->get();
+
+            if($userWatch->isEmpty())
+            {
+                $watch = new Watch;
+                $watch->user_id     = Auth::user()->id;
+                $watch->advert_id   = $id;
+                $watch->save();
+            }
+
+            return Redirect::back()->withInput();
+        }
+        else
+        {
+            return  Redirect::route('home')
+                ->with('global', 'An Error has occurred!');
+        }
+    }
+
+    public function getWatchList()
+    {
+//        //Create LIKE query from input
+//        $watchList = Watch::join('users', 'watch.user_id', '=', 'users.id')
+//                      ->where('user_id', Auth::user()->id);
+//
+        //Create LIKE query from input
+        $watchList = Watch::all();
+
+
+        //Redirects to searchAdvert page and send values
+        return View::make('advert.viewWatchList')
+            ->with('watchList', $watchList);
     }
 }

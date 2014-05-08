@@ -2,14 +2,19 @@
 
 class Advert extends Eloquent
 {
-    protected $guarded = array();
+    protected $guarded = [];
 
-    protected $fillable = array(
+    protected $fillable = [
         'title',
         'price',
         'description',
         'extras'
-    );
+    ];
+
+    public function watched()
+    {
+        return $this->hasMany('Watch');
+    }
 
     public static $rulesCreateAdvertForm = [
        // 'number_plate'          => 'required|max:7|min:1',

@@ -3,7 +3,9 @@
 use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableInterface;
 
-class User extends Eloquent implements UserInterface, RemindableInterface {
+class User extends Eloquent implements UserInterface, RemindableInterface
+{
+    protected $table = 'users';
 
     protected $fillable = array(
         'email',
@@ -11,9 +13,10 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         'password',
     );
 
-
-	protected $table = 'users';
-
+    public function watches()
+    {
+        return $this->hasMany('Watch');
+    }
 
 	protected $hidden = array('password');
 
