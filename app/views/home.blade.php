@@ -14,10 +14,10 @@
 
 	<div class="row">
 		<div class="col-xs-12 form-group">
-			@if($car_model_list != null && $car_model_list != null)
-			{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
+			@if(isset($car_model_list) && isset($car_model_list))
+				{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
 			@else
-			{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
+				{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
 			@endif
 		</div>
 	</div>

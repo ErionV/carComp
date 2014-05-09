@@ -88,12 +88,24 @@ class AdvertController extends BaseController
 		$advert = Advert::find($id);
 		$images = CarPics::whereAdvert_id($advert->id)->first();
 
-		if($advert)
+		$user  = User::find($advert->customer_id);
+
+		$view = View::make('advert.viewAdvert');
+
+		if($advert && $images && $user)
 		{
-			return View::make('advert.viewAdvert')
-				->with('advert', $advert)
-				->with('images', $images);
+			if($user->dealer_id)
+			{
+				$dealer = Dealer::find($user->dealer_id);
+				$view->with('dealer', $dealer);
+
+			}
+				$view->with('advert', $advert)
+					 ->with('images', $images)
+					 ->with('user', $user);
 		}
+
+		return $view;
 	}
 
 	public function getSearch()

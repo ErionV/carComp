@@ -9,7 +9,9 @@
 
             @foreach($compareList as $ad)
                 <div class="col-xs-2">
-                    <img class="img-thumbnail" src="/images/{{CarPics::whereAdvert_id($ad->id)->first()->image}}">
+	                <a href="/ad/{{$ad->advert->id}}">
+                        <img class="img-thumbnail" src="/images/{{CarPics::where('advert_id',$ad->advert->id)->first()->image}}">
+	                </a>
                 </div>
             @endforeach
 

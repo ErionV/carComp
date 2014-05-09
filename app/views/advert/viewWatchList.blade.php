@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-xs-2 col-xs-offset-1 carAdImage removeLinkDec">
             <a href="/ad/{{$ad->id}}">
-                <img src="/images/{{CarPics::whereAdvert_id($ad->id)->first()->image}}">
+                <img src="/images/{{CarPics::where('advert_id',$ad->advert->id)->first()->image}}">
             </a>
         </div>
         <div class="col-xs-9">

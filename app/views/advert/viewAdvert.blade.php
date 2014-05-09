@@ -21,7 +21,7 @@
 
     <div class="row">
         <div class="col-xs-6">
-            <img class="img-responsive img-thumbnail" src="/images/{{$images->image}}">
+            <img class="img-responsive img-thumbnail" src="/images/{{$images->image}}" style="width: 455px; height: 343px;>
         </div>
 
         <div class="col-xs-3">
@@ -30,7 +30,7 @@
                 <p>Last Updated: {{$advert->updated_at}}</p>
             </div>
         </div><!--End col-xs-2-->
-        <div class="col-xs-3">
+        <div class="col-xs-3 col-xs-offset-3">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="panel panel-default productDetails">
@@ -60,10 +60,20 @@
         </div><!--End col-xs-4-->
         <div class="col-xs-3">
             <div class="well descriptionWell">
-                <h4>Dealer Info:</h4>
-                <p>
-                    ekjvbeihbvekjv iejbvie viebv er ivb
-                </p>
+                @if(isset($dealer))
+		            <h4>Dealer: </h4><p>{{$dealer->company_name}}</p>
+	                <h4>Contact: </h4><p>{{$dealer->contact_number}}</p>
+	                @if($dealer->website != null)
+	                    <h4>Website: </h4><p>{{$dealer->website}}</p>
+	                @endif
+	                <h4>About: </h4>
+		            <p>
+			            {{$dealer->about}}
+		            </p>
+	            @else
+		            <h4>User:</h4><p>{{$user->username}}</p>
+	                <h4>Contact Email: </h4><p>{{$user->email}}</p>
+	            @endif
             </div>
         </div>
     </div><!--End row-->
