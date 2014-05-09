@@ -9,13 +9,21 @@ class ImagesTableSeeder extends Seeder
 	{
 		$faker = Faker::create();
 
+		//Truncate Car pictures table
 		CarPics::truncate();
+
+		$files = [];
+		foreach (new DirectoryIterator(public_path() . '/images/') as $fileInfo)
+		{
+			if($fileInfo->isDot() || !$fileInfo->isFile()) continue;
+			$files[] = $fileInfo->getFilename();
+		}
 
 		foreach(range(1, 50) as $index)
 		{
 			CarPics::create([
 				'advert_id' => $index,
-				'image' => '1398133686-LRBF594xKX.jpeg'
+				'image' => $files[rand(0, count($files) - 1)]
 			]);
 		}
 	}

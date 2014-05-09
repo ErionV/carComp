@@ -21,7 +21,7 @@
 
     <div class="row">
         <div class="col-xs-6">
-            <img class="img-responsive img-thumbnail" src="/images/{{$images->image}}" style="width: 455px; height: 343px;>
+            <img class="img-responsive img-thumbnail" src="/images/{{$image->image}}" style="width: 455px; height: 343px;>
         </div>
 
         <div class="col-xs-3">
@@ -70,7 +70,7 @@
 		            <p>
 			            {{$dealer->about}}
 		            </p>
-	            @else
+	            @elseif(isset($user))
 		            <h4>User:</h4><p>{{$user->username}}</p>
 	                <h4>Contact Email: </h4><p>{{$user->email}}</p>
 	            @endif

@@ -2,11 +2,12 @@
 
 class AdvertTableSeeder extends Seeder
 {
-
 	public function run()
 	{
+		//Create faker variable
 		$faker = Faker\Factory::create();
 
+		//Empty Advert table
 		Advert::truncate();
 
 		foreach(range(1, 50) as $index)
@@ -15,9 +16,9 @@ class AdvertTableSeeder extends Seeder
 
 			Advert::create([
 				'car_id'        => $randomCar->model_id,
-				'make'          => $randomCar->model_make_id,
-				'model'         => $randomCar->model_name,
-				'title'         => $faker->sentence(2),
+				'make'          => ucfirst(strtolower($randomCar->model_make_id)),
+				'model'         => ucfirst(strtolower($randomCar->model_name)),
+				'title'         => ucfirst(strtolower($randomCar->model_make_id)).' '.$randomCar->model_name.' '.$randomCar->model_trim,
 				'description'   => $faker->paragraph(8),
 				'price'         => $faker->numberBetween(800, 45000),
 				'gearbox'       => $faker->word,
@@ -27,5 +28,4 @@ class AdvertTableSeeder extends Seeder
 			]);
 		}
 	}
-
 }

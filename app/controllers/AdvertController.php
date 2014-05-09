@@ -86,26 +86,28 @@ class AdvertController extends BaseController
 	public function getViewAdvert($id)
 	{
 		$advert = Advert::find($id);
-		$images = CarPics::whereAdvert_id($advert->id)->first();
+		$image = CarPics::whereAdvert_id($advert->id)->first();
 
 		$user  = User::find($advert->customer_id);
 
 		$view = View::make('advert.viewAdvert');
 
-		if($advert && $images && $user)
+		if($advert && $image && $user)
 		{
 			if($user->dealer_id)
 			{
 				$dealer = Dealer::find($user->dealer_id);
 				$view->with('dealer', $dealer);
-
 			}
-				$view->with('advert', $advert)
-					 ->with('images', $images)
-					 ->with('user', $user);
+			else
+			{
+				$view->with('user', $user);
+			}
+
 		}
 
-		return $view;
+		return $view->with('advert', $advert)
+					->with('image', $image);
 	}
 
 	public function getSearch()
@@ -119,9 +121,19 @@ class AdvertController extends BaseController
 			//Create LIKE query from input
 			$ads = Advert::where('title', 'LIKE', "%$query%")->paginate(10);
 
-			//Redirects to searchAdvert page and send values
-			return View::make('search.results')
-				->with('ads', $ads);
+			if($ads->count())
+			{
+				//Redirects to searchAdvert page and send values
+				return View::make('search.results')
+					->with('ads', $ads);
+			}
+			else
+			{
+				return Redirect::back()
+					->withInput()
+					->with('global', 'There is no advert with that title');
+			}
+
 		}
 	}
 
