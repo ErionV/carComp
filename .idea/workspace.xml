@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="981ede56-714e-45b1-b855-c5b9676ee56f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/advert/searchAdvert.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_02_25_173435_create_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_02_25_173435_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_03_06_002321_create_dealers_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_03_06_002321_create_dealers_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_03_06_175135_create_advert_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_03_06_175135_create_advert_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_03_07_024121_create_car_ad_images_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_03_07_024121_create_car_ad_images_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_05_07_214656_create_watch_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_05_07_214656_create_watch_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Account.php" afterPath="$PROJECT_DIR$/app/models/Account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AccountController.php" afterPath="$PROJECT_DIR$/app/controllers/AccountController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AdvertController.php" afterPath="$PROJECT_DIR$/app/controllers/AdvertController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Dealer.php" afterPath="$PROJECT_DIR$/app/models/Dealer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/DealerController.php" afterPath="$PROJECT_DIR$/app/controllers/DealerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/CarPics.php" afterPath="$PROJECT_DIR$/app/models/CarPics.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/controllers/ProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/changePassword.blade.php" afterPath="$PROJECT_DIR$/app/views/account/changePassword.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/forms/changePasswordForm.blade.php" afterPath="$PROJECT_DIR$/app/views/account/forms/changePasswordForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/compareAdvert.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/compareAdvert.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/forgotPassword.blade.php" afterPath="$PROJECT_DIR$/app/views/account/forgotPassword.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/forms/forgotPasswordForm.blade.php" afterPath="$PROJECT_DIR$/app/views/account/forms/forgotPasswordForm.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.blade.php" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/login.blade.php" afterPath="$PROJECT_DIR$/app/views/account/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/main.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/main.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/bootstrap/js/myJSFuncs.js" afterPath="$PROJECT_DIR$/public/packages/bootstrap/js/myJSFuncs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/navigation.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/navigationTwo.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/navigationTwo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/register.blade.php" afterPath="$PROJECT_DIR$/app/views/account/register.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/dealer/forms/registerForm.blade.php" afterPath="$PROJECT_DIR$/app/views/account/dealer/forms/registerForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/account/forms/registerForm.blade.php" afterPath="$PROJECT_DIR$/app/views/account/forms/registerForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/search/results.blade.php" afterPath="$PROJECT_DIR$/app/views/search/results.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" afterPath="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/profile/user.blade.php" afterPath="$PROJECT_DIR$/app/views/profile/user.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/viewAdvert.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/viewAdvert.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php" afterPath="$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="carComp.iws" />
@@ -70,7 +31,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2910">
+            <state line="5" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="63.875" vertical-offset="1608" max-vertical-offset="2910">
               <folding />
             </state>
           </provider>
@@ -79,7 +40,7 @@
       <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="852" selection-end="852" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1275">
+            <state line="26" column="34" selection-start="757" selection-end="757" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -88,25 +49,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="791" selection-end="791" vertical-scroll-proportion="0.35211268" vertical-offset="0" max-vertical-offset="1278">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/AccountController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="964" selection-end="964" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="4455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvertTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="196" selection-end="196" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="540">
+            <state line="20" column="19" selection-start="510" selection-end="510" vertical-scroll-proportion="0.23474178" vertical-offset="0" max-vertical-offset="1278">
               <folding />
             </state>
           </provider>
@@ -115,7 +58,7 @@
       <file leaf-file-name="AdvertController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="40" selection-start="2330" selection-end="2330" vertical-scroll-proportion="-10.125" vertical-offset="1212" max-vertical-offset="3420">
+            <state line="102" column="0" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-17.916666" vertical-offset="1100" max-vertical-offset="3420">
               <folding />
             </state>
           </provider>
@@ -142,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/advert/compareAdverts.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/database/seeds/AdverTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
@@ -177,21 +118,23 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_03_07_024121_create_car_ad_images_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_08_164432_create_compare_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Account.php" />
         <option value="$PROJECT_DIR$/app/views/account/forms/loginForm.blade.php" />
         <option value="$PROJECT_DIR$/public/packages/bootstrap/js/myJSFuncs.js" />
         <option value="$PROJECT_DIR$/app/views/search/searchResult.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/AdvertController.php" />
         <option value="$PROJECT_DIR$/app/views/advert/viewAdvert.blade.php" />
         <option value="$PROJECT_DIR$/app/views/advert/compareAdvert.blade.php" />
         <option value="$PROJECT_DIR$/app/views/advert/forms/postAdvertForm.blade.php" />
         <option value="$PROJECT_DIR$/public/packages/bootstrap/css/style.css" />
-        <option value="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/AccountController.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/AdvertController.php" />
+        <option value="$PROJECT_DIR$/app/models/CarPics.php" />
+        <option value="$PROJECT_DIR$/app/views/search/results.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
       </list>
     </option>
@@ -356,6 +299,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,13 +581,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="345" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/.gitkeep">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1302">
@@ -637,23 +595,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Watch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.4342723" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Dealer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.48122066" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
@@ -819,34 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="280" selection-end="280" vertical-scroll-proportion="0.19953051" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.17605634" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Advert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="254" selection-end="254" vertical-scroll-proportion="0.17605634" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1302">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/account/forms/loginForm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.23715416" vertical-offset="0" max-vertical-offset="1265">
@@ -871,20 +787,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/account/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="137" selection-end="137" vertical-scroll-proportion="0.07042254" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search/results.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.68075114" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="22" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="1265">
           <folding />
         </state>
       </provider>
@@ -919,44 +821,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="170" selection-end="170" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="4455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Dealer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="6" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.49003986" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="382" selection-end="382" vertical-scroll-proportion="0.20318726" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.17928287" vertical-offset="0" max-vertical-offset="1255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/ImagesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="178" selection-end="178" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/AdvertTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="196" selection-end="196" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="540">
+        <state line="11" column="27" selection-start="156" selection-end="156" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/advert/viewWatchList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="80" selection-start="940" selection-end="951" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Watch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="142" selection-end="234" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/CarPics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="174" selection-end="174" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Advert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="183" selection-end="260" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/results.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="64" selection-start="237" selection-end="237" vertical-scroll-proportion="0.1056338" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/AdvertController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="40" selection-start="2330" selection-end="2330" vertical-scroll-proportion="-10.125" vertical-offset="1212" max-vertical-offset="3420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="964" selection-end="964" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="4455">
+        <state line="102" column="0" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-17.916666" vertical-offset="1100" max-vertical-offset="3420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2910">
+        <state line="5" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="63.875" vertical-offset="1608" max-vertical-offset="2910">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="852" selection-end="852" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1275">
+        <state line="26" column="34" selection-start="757" selection-end="757" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="791" selection-end="791" vertical-scroll-proportion="0.35211268" vertical-offset="0" max-vertical-offset="1278">
+        <state line="20" column="19" selection-start="510" selection-end="510" vertical-scroll-proportion="0.23474178" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
