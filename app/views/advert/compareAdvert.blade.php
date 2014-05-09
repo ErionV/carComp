@@ -48,9 +48,5 @@
                     </ul>
                 </div>
             @endforeach
-    @else
-
-        <h3>No results, sorry</h3>
-
     @endif
 @stop

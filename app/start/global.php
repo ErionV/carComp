@@ -51,6 +51,17 @@ App::error(function(Exception $exception, $code)
 	Log::error($exception);
 });
 
+App::error(function(InvalidArgumentException $exception)
+{
+	return Redirect::route('home')
+		->with('global', 'You must be logged in.');
+});
+
+App::missing(function($exception)
+{
+	return Redirect::to('/404-error');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Maintenance Mode Handler

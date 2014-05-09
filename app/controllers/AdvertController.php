@@ -173,27 +173,35 @@ class AdvertController extends BaseController
 		else
 		{
 			return Redirect::route('home')
-				->with('global', 'An Error has occurred!');
+				->with('global', 'You must be logged in to compare cars!');
 		}
 	}
 
 	public function getAdvertCompareView()
 	{
-		$compareList = Compare::where('user_id', Auth::user()->id)
-			->paginate(10);
-
-		if($compareList)
+		//Check if user is logged in
+		if(Auth::check())
 		{
-			//Redirects to searchAdvert page and send values
-			return View::make('advert.compareAdvert')
-				->with('compareList', $compareList);
-		} else
+			$compareList = Compare::where('user_id', Auth::user()->id)
+				->paginate(10);
+
+			if(count($compareList) > 0)
+			{
+				//Redirects to searchAdvert page and send values
+				return View::make('advert.compareAdvert')
+					->with('compareList', $compareList);
+			}
+			else
+			{
+				return Redirect::route('home')
+					->with('global', 'You are currently not COMPARING any cars.');
+			}
+		}
+		else
 		{
 			return Redirect::route('home')
-				->with('global', 'You are currently not COMPARING any cars.');
+				->with('global', 'You must be logged in.');
 		}
-
-
 	}
 
 	public function getAdvertCompareRemove($id)
@@ -238,17 +246,26 @@ class AdvertController extends BaseController
 	//Display user watchlist
 	public function getWatchListView()
 	{
-		$watchList = Watch::paginate(10);
-
-		if(count($watchList))
+		//Check if user is logged in
+		if(Auth::check())
 		{
-			//Redirects to searchAdvert page and send values
-			return View::make('advert.viewWatchList')
-				->with('watchList', $watchList);
-		} else
+			$watchList = Watch::paginate(10);
+
+			if(count($watchList))
+			{
+				//Redirects to searchAdvert page and send values
+				return View::make('advert.viewWatchList')
+					->with('watchList', $watchList);
+			} else
+			{
+				return Redirect::route('home')
+					->with('global', 'You are currently not WATCHING any cars.');
+			}
+		}
+		else
 		{
 			return Redirect::route('home')
-				->with('global', 'You are currently not WATCHING any cars.');
+				->with('global', 'You must be logged in.');
 		}
 	}
 

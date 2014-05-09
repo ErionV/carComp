@@ -37,7 +37,7 @@ class ProfileController extends BaseController
 		else
 		{
 			return Redirect::route('home')
-				->with('global', 'You are currently not WATCHING any cars.');
+				->with('global', 'You are currently not selling any cars any cars.');
 		}
 	}
 }

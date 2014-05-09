@@ -59,8 +59,9 @@
             </div>
         </div><!--End col-xs-4-->
         <div class="col-xs-3">
-            <div class="well descriptionWell">
+
                 @if(isset($dealer))
+	        <div class="well descriptionWell">
 		            <h4>Dealer: </h4><p>{{$dealer->company_name}}</p>
 	                <h4>Contact: </h4><p>{{$dealer->contact_number}}</p>
 	                @if($dealer->website != null)
@@ -71,8 +72,11 @@
 			            {{$dealer->about}}
 		            </p>
 	            @elseif(isset($user))
+			        <div class="well descriptionWell">
 		            <h4>User:</h4><p>{{$user->username}}</p>
 	                <h4>Contact Email: </h4><p>{{$user->email}}</p>
+	            @else
+				<div>
 	            @endif
             </div>
         </div>
