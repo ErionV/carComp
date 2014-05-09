@@ -7,7 +7,12 @@ class AdvertController extends BaseController
 	*/
 	public function getPostAdvert()
 	{
-		return View::make('advert.postAdvert');
+		//Creates array of all data in car_makes table for dropdown list
+		$car_make_list = [ CarMakes::orderBy('car_make', 'asc')
+			->lists('car_make', 'car_make'), '' => 'Make '];
+
+		return View::make('advert.postAdvert')
+			->with('car_make_list', $car_make_list);
 	}
 
 	/*
@@ -24,7 +29,8 @@ class AdvertController extends BaseController
 			return Redirect::route('get_postad')
 				->withErrors($validator)
 				->withInput();
-		} else
+		}
+		else
 		{
 			//Create new advert
 			$advert = new Advert;
@@ -113,21 +119,34 @@ class AdvertController extends BaseController
 		//Check if user is logged in
 		if(Auth::check())
 		{
-			//Queries to to
-			$userCompare = Compare::where('user_id', Auth::user()->id)
-				->where('advert_id', $id)
-				->get();
+			$countCompares = Compare::where('user_id', '=', Auth::user()->id)->count();
 
-			if($userCompare->isEmpty())
+			if($countCompares < 5)
 			{
-				$compare = new Compare;
-				$compare->user_id = Auth::user()->id;
-				$compare->advert_id = $id;
-				$compare->save();
+				//Queries to to
+				$userCompare = Compare::where('user_id', Auth::user()->id)
+					->where('advert_id', $id)
+					->get();
+
+				if($userCompare->isEmpty())
+				{
+					$compare = new Compare;
+					$compare->user_id = Auth::user()->id;
+					$compare->advert_id = $id;
+					$compare->save();
+				}
+			}
+			else
+			{
+				return Redirect::back()
+					->withInput()
+					->with('global', 'Your compare is FULL, please remove some to compare this one');
 			}
 
 			return Redirect::back()->withInput();
-		} else
+
+		}
+		else
 		{
 			return Redirect::route('home')
 				->with('global', 'An Error has occurred!');
@@ -136,9 +155,10 @@ class AdvertController extends BaseController
 
 	public function getAdvertCompareView()
 	{
-		$compareList = Compare::paginate(10);
+		$compareList = Compare::where('user_id', Auth::user()->id)
+			->paginate(10);
 
-		if(count($compareList))
+		if($compareList)
 		{
 			//Redirects to searchAdvert page and send values
 			return View::make('advert.compareAdvert')

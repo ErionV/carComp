@@ -5,15 +5,39 @@ class ProfileController extends BaseController
 
 	public function user($username)
 	{
-		$user = User::whereUsername($username);
+//		$user = User::whereUsername($username);
+//
+//		if($user->count())
+//		{
+//			$user = $user->first();
+//
+//			return View::make('profile.user', compact('user'));
+//		}
+//
+//		return App::abort(404);
 
-		if($user->count())
+
+		$userUploads = Advert::where('customer_id', Auth::user()->id)
+					->paginate(10);
+
+		if(count($userUploads))
 		{
-			$user = $user->first();
+			$user = User::whereUsername($username);
 
-			return View::make('profile.user', compact('user'));
+			if($user->count())
+			{
+				$user = $user->first();
+
+				return View::make('profile.user')
+						->with('user', $user)
+						->with('userUploads', $userUploads);
+			}
+
 		}
-
-		return App::abort(404);
+		else
+		{
+			return Redirect::route('home')
+				->with('global', 'You are currently not WATCHING any cars.');
+		}
 	}
 }

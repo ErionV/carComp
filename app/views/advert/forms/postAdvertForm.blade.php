@@ -63,7 +63,7 @@
 	                            <strong>
 		                            Make :
 	                            </strong>
-	                            {{ Form::text('make', null, ['class'=>'form-control', 'placeholder'=>'Make']) }}
+	                            {{ Form::select('make', $car_make_list, ['class' => 'form-control']) }}
                             </li>
                             <li class="list-group-item">
 	                            <strong>

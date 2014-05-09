@@ -6,30 +6,29 @@
 	<div class="row">
 		{{Form::open(['route' => 'home', 'method' => 'GET'])}}
 
-			<div class="col-xs-12 form-group">
-				{{ Form::select('car_make', $car_make_list, $make, ['class' => 'form-control']) }}
-			</div>
-
+		<div class="col-xs-12 form-group">
+			{{ Form::select('car_make', $car_make_list, $make, ['class' => 'form-control']) }}
 		</div>
 
-		<div class="row">
-			<div class="col-xs-12 form-group">
-				@if($car_model_list != null && $car_model_list != null)
-					{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
-				@else
-					{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
-				@endif
-			</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 form-group">
+			@if($car_model_list != null && $car_model_list != null)
+			{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
+			@else
+			{{ Form::select('car_model', $car_model_list, $model, ['class' => 'form-control']) }}
+			@endif
 		</div>
+	</div>
 
 
-			<button type="submit" class="btn btn-lg btn-primary form-group col-xs-9">Search</button>
-			<button type="submit" class="btn btn-lg btn-primary form-group col-xs-2 col-xs-offset-1">
+	<button type="submit" class="btn btn-lg btn-primary form-group col-xs-9">Search</button>
+	<button type="submit" class="btn btn-lg btn-primary form-group col-xs-2 col-xs-offset-1">
 				<span
 					class="glyphicon glyphicon-refresh">
-
 				</span>
-			</button>
+	</button>
 
 	{{Form::close()}}
 
