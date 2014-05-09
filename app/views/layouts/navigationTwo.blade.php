@@ -3,11 +3,9 @@
 
     <div class="container">
         <ul class="nav navbar-nav navbar-left">
-            <li><a href="">Buying</a></li>
-            <li><a href="">Selling</a></li>
-            <li><a href="">New cars & reviews</a></li>
-            <li><a href="">Motoring products</a></li>
-            <li><a href="">Other vechicles</a></li>
+            <li>{{ HTML::link(URL::route('get_postad') , 'Buying', ['class' => '']) }}</li>
+            <li>{{ HTML::link(URL::route('get_postad') , 'Selling', ['class' => '']) }}</li>
+            <li>{{ HTML::link(URL::route('ad_compare_view') , 'Comparison', ['class' => '']) }}</li>
         </ul>
     </div>
 

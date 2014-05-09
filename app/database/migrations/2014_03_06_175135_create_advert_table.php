@@ -3,7 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateAdvertTable extends Migration {
+class CreateAdvertTable extends Migration
+{
 
 	/**
 	 * Run the migrations.
@@ -12,15 +13,16 @@ class CreateAdvertTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('advert', function(Blueprint $table) {
+		Schema::create('advert', function (Blueprint $table)
+		{
 			$table->increments('id');
-            $table->integer('car_id')->references('id')->on('cars_all')->default(0);
+			$table->integer('car_id')->references('id')->on('cars_all')->default(0);
 			$table->integer('customer_id')->references('id')->on('users')->default(0);
 			$table->string('number_plate', 7)->default('');
-            $table->string('make', 20);
-            $table->string('model', 50);
+			$table->string('make', 20);
+			$table->string('model', 50);
 			$table->string('title', 60);
-            $table->mediumText('description');
+			$table->longText('description');
 			$table->string('price', 10);
 			$table->string('gearbox', 20);
 			$table->string('fuel_type', 20);

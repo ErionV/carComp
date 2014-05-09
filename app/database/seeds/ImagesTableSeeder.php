@@ -9,13 +9,13 @@ class ImagesTableSeeder extends Seeder
 	{
 		$faker = Faker::create();
 
-        CarPics::truncate();
+		CarPics::truncate();
 
 		foreach(range(1, 50) as $index)
 		{
 			CarPics::create([
-                'advert_id'     => $index,
-                'image'         => '1398133686-LRBF594xKX.jpeg'
+				'advert_id' => $index,
+				'image' => '1398133686-LRBF594xKX.jpeg'
 			]);
 		}
 	}

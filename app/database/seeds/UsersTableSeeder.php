@@ -13,7 +13,7 @@ class UsersTableSeeder extends Seeder {
             [   'email'         => 'admin@hotmail.com',
                 'username'      => 'admin',
                 'password'      => Hash::make('albanian1991'),
-                'active'          => 1],
+                'active'        => 1],
             [   'email'         => 'erion.vlada@gmail.com',
                 'username'      => 'ErionV',
                 'password'      => Hash::make('albanian1991'),

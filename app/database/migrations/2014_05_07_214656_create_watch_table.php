@@ -18,6 +18,6 @@ class CreateWatchTable extends Migration
 
 	public function down()
 	{
-		Schema::drop('watch');
+		Schema::drop('watches');
 	}
 }

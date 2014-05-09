@@ -3,13 +3,13 @@
 //Home page (GET)
 Route::get('/', [
     'as'    => 'home',
-    'uses'  => 'HomeController@home'
+    'uses'  => 'HomeController@getHome'
 ]);
 
 //Advert Search (GET)
 Route::get('/search/', [
     'as'    => 'ad_search',
-    'uses'  => 'AdvertController@adSearch'
+    'uses'  => 'AdvertController@getSearch'
 ]);
 
 //Show user profile (GET)
@@ -22,12 +22,6 @@ Route::get('/user/{username}', [
 Route::get('/ad/{id}', [
     'as'    => 'view_advert_get',
     'uses'  => 'AdvertController@getViewAdvert'
-]);
-
-//View car advert with id (GET)
-Route::get('/compare/', [
-    'as'    => 'ad_compare',
-    'uses'  => 'AdvertController@getAdvertCompare'
 ]);
 
 //////////////////////////////////////////////////////////////////////////
@@ -130,18 +124,51 @@ Route::group(['before' => 'auth'], function()
         ]);
     });
 
+    /////////////////////////////////
+    //Comparison Routes
+    /////////////////////////////////
+    //Add cars to comparison (GET)
+    Route::get('/compare/{id}', [
+        'as'    => 'ad_compare',
+        'uses'  => 'AdvertController@getAddAdvertCompare'
+    ]);
+
+    //Remove car from Comparison page (GET)
+    Route::get('/compare/remove/{id}', [
+        'as'    => 'ad_compare_remove',
+        'uses'  => 'AdvertController@getAdvertCompareRemove'
+    ]);
+
+    //View Comparison page (GET)
+    Route::get('/compare/', [
+        'as'    => 'ad_compare_view',
+        'uses'  => 'AdvertController@getAdvertCompareView'
+    ]);
+
+    /////////////////////////////////
+    //Watch Routes
+    /////////////////////////////////
     //View Watch List (GET)
     Route::get('/watchlist/', [
         'as'    => 'get_watchList',
-        'uses'  => 'AdvertController@getWatchList'
+        'uses'  => 'AdvertController@getWatchListView'
     ]);
 
-    //Watch advert (GET)
+    //Remove car from Watch List (GET)
+    Route::get('/watchlist/remove/{id}', [
+        'as'    => 'get_watchRemove',
+        'uses'  => 'AdvertController@getWatchRemove'
+    ]);
+
+    //Add car to watch (GET)
     Route::get('/watch/{id}', [
         'as'    => 'watch_advert',
         'uses'  => 'AdvertController@getAddWatch'
     ]);
 
+    /////////////////////////////////
+    //Account Routes
+    /////////////////////////////////
     //Log out (GET)
     Route::get('/account/logout', [
         'as'        => 'account_logout',

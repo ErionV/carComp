@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-xs-6 col-xs-offset-3">
         @include('account.forms.changePasswordForm')
     </div>
 @stop
