@@ -74,7 +74,7 @@ class AdvertController extends BaseController
 				$image->save();
 
 				return Redirect::route('home')
-					->with('global', 'Success, car is now online :)');
+					->with('global', 'Success, car is now online');
 			}
 
 		}
