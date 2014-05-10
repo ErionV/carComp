@@ -1,5 +1,5 @@
-body{
-	background-color: #E6E3E3;
+body {
+    background-color: #E6E3E3;
 }
 
 .navbar-form
@@ -27,6 +27,7 @@ body{
     border-color: #357ebd;
     padding-top: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .options_nav a {
@@ -45,7 +46,6 @@ body{
     padding-top: 10px;
     text-decoration: none;
 }
-
 
 .options_nav:hover {
     text-decoration: none;
@@ -91,7 +91,7 @@ body{
 }
 
 /*removes stupid dotted line around the link*/
-a,a:hover,a:focus,a:active{
+a, a:hover, a:focus, a:active {
     outline: 0;
 }
 
@@ -104,13 +104,13 @@ a,a:hover,a:focus,a:active{
     background-color: #232323;
 }
 
-.panel-body h3{
+.panel-body h3 {
     padding: 0;
     margin: 0;
     color: #EAEAEA;
 }
 
-.productNameAndPrice h3 span{
+.productNameAndPrice h3 span {
     color: #787878;
 }
 
@@ -124,48 +124,48 @@ a,a:hover,a:focus,a:active{
     color: #F33;
 }
 
-.pointsWell h5{
+.pointsWell h5 {
     font-size: 16px;
     font-weight: bold;
 }
 
-.interactionInfo p{
+.interactionInfo p {
     padding: 5px;
     color: #C0C0C0;
 }
 
-.productDetails h5{
+.productDetails h5 {
     font-size: 17px;
     font-weight: bold;
 }
 
-textarea.form-control{
+textarea.form-control {
     max-height: 150px;
     max-width: 100%;
     resize: none;
 }
 
-.navbar1{
+.navbar1 {
     border: 0;
     margin-bottom: 0;
 }
 
-.navbar2{
+.navbar2 {
     border-radius: 0;
     border: 0;
 }
 
-.lamboTemp img{
+.lamboTemp img {
     width: 100%;
 }
 
-.caption_onLambo{
+.caption_onLambo {
     position: absolute;
     top: 0px;
     right: 100px;
 }
 
-.caption_onLambo h4{
+.caption_onLambo h4 {
     height: auto;
     width: 100%;
     text-align: right;
@@ -173,7 +173,7 @@ textarea.form-control{
     z-index: 200;
 }
 
-.descriptionTitle h5{
+.descriptionTitle h5 {
     margin-top: -2px;
 }
 
@@ -182,20 +182,15 @@ textarea.form-control{
 }
 
 .separator {
-    height:4px;
+    height: 4px;
     max-height: 4px;
-    background-color:#CDCBCB;
+    background-color: #CDCBCB;
 }
 
 .catagoriesAd
 .list-group-item {
     padding: 5px 15px;
     font-size: 11px;
-}
-
-.adButtons
-.btn-group {
-    margin-top: 70px;
 }
 
 .compareInfo ul li {
@@ -224,9 +219,54 @@ textarea.form-control{
     margin-top: 13px;
 }
 
-.carAdImage img{
+.carAdImage img {
     height: 140px;
     left: -28px;
     top: -5px;
     position: relative;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.postAdsInputs .list-group-item label {
+    margin-top: 8px;
+    font-size: 10px;
+    margin-left: -15px;
+}
+
+.postAdsInputs .list-group-item {
+    height: 53px;
+}
+
+.postAdsInputs .col-xs-8 {
+    padding-right: 5px;
+}
+
+.postAdsInputs input {
+    margin-left: 10px;
+}
+
+.submitBut {
+    margin-top: 225px;
+}
+
+.makeFormControl .form-control{
+    margin-left: 8px;
 }

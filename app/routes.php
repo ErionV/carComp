@@ -13,7 +13,7 @@ Route::get('/search/', [
 ]);
 
 //Show user profile (GET)
-Route::get('/user/{username}', [
+Route::get('/user/', [
 	'as' => 'profile_user',
 	'uses' => 'ProfileController@user'
 ]);
@@ -24,7 +24,8 @@ Route::get('/ad/{id}', [
 	'uses' => 'AdvertController@getViewAdvert'
 ]);
 
-Route::get('404-error', function(){
+Route::get('404-error', function ()
+{
 	return View::make('error.404error');
 });
 
@@ -126,6 +127,12 @@ Route::group(['before' => 'auth'], function ()
 			'uses' => 'AdvertController@postPostAdvert'
 		]);
 	});
+
+	//View car advert with id (GET)
+	Route::get('/ad/remove/{id}', [
+		'as' => 'get_remove_ad',
+		'uses' => 'AdvertController@getRemoveAdvert'
+	]);
 
 	/////////////////////////////////
 	//Comparison Routes

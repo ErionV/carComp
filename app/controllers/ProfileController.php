@@ -3,41 +3,29 @@
 class ProfileController extends BaseController
 {
 
-	public function user($username)
+	public function user()
 	{
-//		$user = User::whereUsername($username);
-//
-//		if($user->count())
-//		{
-//			$user = $user->first();
-//
-//			return View::make('profile.user', compact('user'));
-//		}
-//
-//		return App::abort(404);
-
-
-		$userUploads = Advert::where('customer_id', Auth::user()->id)
-					->paginate(10);
-
-		if(count($userUploads))
+		if(Auth::check())
 		{
-			$user = User::whereUsername($username);
+			$userUploads = Advert::where('customer_id', Auth::user()->id)
+				->paginate(10);
+
+			$user = User::whereUsername(Auth::user()->username);
 
 			if($user->count())
 			{
 				$user = $user->first();
 
 				return View::make('profile.user')
-						->with('user', $user)
-						->with('userUploads', $userUploads);
+					->with('user', $user)
+					->with('userUploads', $userUploads);
 			}
 
 		}
 		else
 		{
 			return Redirect::route('home')
-				->with('global', 'You are currently not selling any cars any cars.');
+				->with('global', 'You must be logged in to view your adverts');
 		}
 	}
 }

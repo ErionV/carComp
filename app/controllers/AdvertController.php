@@ -83,6 +83,24 @@ class AdvertController extends BaseController
 			->with('global', 'Car could not be uploaded, please try again');
 	}
 
+	public function getRemoveAdvert($id)
+	{
+		if(Auth::check())
+		{
+			if($id)
+			{
+				$compare = Advert::where('id', $id)->delete();
+
+				return Redirect::back()->withInput();
+			}
+		}
+		else
+		{
+			return Redirect::route('home')
+				->with('global', 'You must be logged in and owner of the advert to remove it');
+		}
+	}
+
 	public function getViewAdvert($id)
 	{
 		$advert = Advert::find($id);
@@ -206,11 +224,19 @@ class AdvertController extends BaseController
 
 	public function getAdvertCompareRemove($id)
 	{
-		if($id)
+		if(Auth::check())
 		{
-			$compare = Compare::where('id', $id)->delete();
+			if($id)
+			{
+				$compare = Compare::where('id', $id)->delete();
 
-			return Redirect::back()->withInput();
+				return Redirect::back()->withInput();
+			}
+		}
+		else
+		{
+			return Redirect::route('home')
+				->with('global', 'You must be logged in.');
 		}
 	}
 

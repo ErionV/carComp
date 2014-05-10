@@ -39,7 +39,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-xs-3 adButtons">
+			<div class="col-xs-3">
 				<div class="btn-group">
 					@if(Auth::check())
 					<a class="btn btn-default" href="/watch/{{$ad->id}}"><span class="glyphicon glyphicon-floppy-disk"></span></a>

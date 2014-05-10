@@ -19,7 +19,7 @@
 
             @if(Auth::check())
                 <div class="col-xs-1 col-xs-offset-1">
-                    <p class="username_nav">{{ HTML::link('user/'.Auth::user()->username, Auth::user()->username, ['class' => '']) }}</p>
+                    <p class="username_nav">{{ HTML::link(URL::route('profile_user') , Auth::user()->username, ['class' => '']) }}</p>
 
                     <div id="popover-content" style="display: none">
                         <p class="login_nav">{{ HTML::link(URL::route('get_postad') , 'Post Ad', ['class' => '']) }}</p>
