@@ -28,7 +28,7 @@
 					<li class="list-group-item"><strong>Mileage:</strong> {{$ad->mileage}}</li>
 					<li class="list-group-item"><strong>Fuel Type:</strong> {{$ad->fuel_type}}</li>
 					<li class="list-group-item"><strong>Gear Box:</strong> {{$ad->gearbox}}</li>
-					<li class="list-group-item"><strong>Engine Size:</strong> 3.4L</li>
+					<li class="list-group-item"><strong>Colour:</strong> {{$ad->colour}}</li>
 				</ul>
 			</div>
 			<div class="col-xs-6 descriptionTitle">
