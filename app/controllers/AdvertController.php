@@ -11,8 +11,16 @@ class AdvertController extends BaseController
 		$car_make_list = [ CarMakes::orderBy('car_make', 'asc')
 			->lists('car_make', 'car_make'), '' => 'Make '];
 
+        //Array of transmissions for dropdown
+        $car_transmission_list = ['Automatic', 'Manual', 'Semi-Auto'];
+
+        //Array of fuel types for dropdown
+        $car_fuelType_list = ['Bio-Fuel', 'Electric', 'Diesel', 'Petrol', 'Hybrid', 'LPG'];
+
 		return View::make('advert.postAdvert')
-			->with('car_make_list', $car_make_list);
+			->with('car_make_list', $car_make_list)
+            ->with('car_transmission_list', $car_transmission_list)
+            ->with('car_fuelType_list', $car_fuelType_list);
 	}
 
 	/*

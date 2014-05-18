@@ -78,10 +78,11 @@
 						</li>
 						<li class="list-group-item">
 							<label class="col-xs-4">Transmission:</label>
-							<div class="col-xs-8">
-								{{ Form::text('gearbox', null, ['class'=>'form-control', 'placeholder'=>'Gearbox']) }}
+                            <div class="col-xs-8 makeFormControl">
+								{{ Form::select('gearbox', $car_transmission_list, null, ['class'=>'form-control']) }}
 							</div>
 						</li>
+
 						<li class="list-group-item">
 							<label class="col-xs-4">Mileage:</label>
 							<div class="col-xs-8">
@@ -90,8 +91,8 @@
 						</li>
 						<li class="list-group-item">
 							<label class="col-xs-4">Fuel Type:</label>
-							<div class="col-xs-8">
-								{{ Form::text('fuel_type', null, ['class'=>'form-control', 'placeholder'=>'Fuel type']) }}
+                            <div class="col-xs-8 makeFormControl">
+								{{ Form::select('fuel_type', $car_fuelType_list, null, ['class'=>'form-control']) }}
 							</div>
 						</li>
 					</ul>
