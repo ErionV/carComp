@@ -30,7 +30,6 @@
         {{ HTML::script('packages/bootstrap/js/angular.js') }}
 	    {{ HTML::script('packages/bootstrap/js/jquery.elevateZoom-3.0.8.min.js') }}
     </div>
-
 </body>
 
 </html>

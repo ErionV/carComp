@@ -134,7 +134,7 @@ class AdvertController extends BaseController
 		$query = Input::get('s');
 
 		//Checks if there is Input value
-		if($query)
+		if(strlen($query) > 1)
 		{
 			//Create LIKE query from input
 			$ads = Advert::where('title', 'LIKE', "%$query%")->paginate(10);
@@ -153,6 +153,12 @@ class AdvertController extends BaseController
 			}
 
 		}
+        else
+        {
+            return Redirect::back()
+                ->withInput()
+                ->with('global', 'Search bar must contain more than 2 characters');
+        }
 	}
 
 	//Add advert to be compared using advert id

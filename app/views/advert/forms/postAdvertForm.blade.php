@@ -65,7 +65,7 @@
 							</div>
 						</li>
 						<li class="list-group-item">
-							<label class="col-xs-4">Make: </label>
+							<label class="col-xs-4">Model: </label>
 							<div class="col-xs-8">
 								{{ Form::text('model', null, ['class'=>'form-control', 'placeholder'=>'Model']) }}
 							</div>

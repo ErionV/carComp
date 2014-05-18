@@ -19,9 +19,9 @@ class Advert extends Eloquent
     public static $rulesCreateAdvertForm = [
        // 'number_plate'          => 'required|max:7|min:1',
         'title'                 => 'required|max:60|min:6',
-        'price'                 => 'required|max:7|min:2',
+        'price'                 => 'required|numeric|max:7|min:2',
         'make'                  => 'required|max:20|min:2',
-        'image'                 => 'required|image',
+        'image'                 => 'required|image|mimes:jpeg,bmp,png',
         'model'                 => 'required|max:50|min:2',
         'gearbox'               => 'required|max:20|min:4',
         'fuel_type'             => 'required|max:20|min:3',
