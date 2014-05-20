@@ -34,3 +34,5 @@ class CreateCarAdImagesTable extends Migration
 	}
 
 }
+
+

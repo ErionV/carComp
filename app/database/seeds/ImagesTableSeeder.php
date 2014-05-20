@@ -29,3 +29,4 @@ class ImagesTableSeeder extends Seeder
 	}
 
 }
+
