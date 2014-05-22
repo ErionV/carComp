@@ -5,24 +5,26 @@
 @foreach($ads as $ad)
 
 <div class="row">
-	<div class="col-xs-2 col-xs-offset-1 carAdImage removeLinkDec">
+	<div class="col-md-2 col-md-offset-1 carAdImage removeLinkDec">
 		<a href="/ad/{{$ad->id}}">
-			<img src="/images/{{CarPics::whereAdvert_id($ad->id)->first()->image}}">
+			<img class="hidden-xs" src="/images/{{CarPics::whereAdvert_id($ad->id)->first()->image}}">
+            <img class="col-xs-12 xsmallAdPic visible-xs" src="/images/{{CarPics::whereAdvert_id($ad->id)->first()->image}}">
 		</a>
 	</div>
-	<div class="col-xs-9">
+
+	<div class="col-md-9">
 		<div class="row">
-			<div class="col-xs-9 removeLinkDec">
+			<div class="col-xs-12 col-md-9 removeLinkDec">
 				<a href="/ad/{{$ad->id}}">
 					<h4>{{$ad->title}}</h4>
 				</a>
 			</div>
-			<div class="col-xs-3">
+			<div class="col-xs-12 col-md-3">
 				<h4>£{{$ad->price}}</h4>
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row hidden-xs">
 			<div class="col-xs-3">
 				<ul class="list-group catagoriesAd">
 					<li class="list-group-item"><strong>Mileage:</strong> {{$ad->mileage}}</li>
@@ -51,7 +53,7 @@
 	</div>
 </div>
 
-<div class="col-xs-10 col-xs-offset-1 separator"></div>
+<div class="hidden-xs col-xs-10 col-xs-offset-1 separator"></div>
 
 @endforeach
 

@@ -48,7 +48,8 @@
         <div class="col-md-6">
             {{ Form::submit('Login', array('class'=>'btn btn-large btn-primary btn-block'))}}
         </div>
-
+    </div>
+    <div class="form-group">
         <div class="col-md-6">
             {{ HTML::link(URL::route('account_forgot_password'), 'Forgot Password', ['class' => 'btn btn-large btn-primary btn-block'])}}
         </div>

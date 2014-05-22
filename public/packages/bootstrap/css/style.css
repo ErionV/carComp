@@ -54,7 +54,7 @@ body {
 }
 
 #search_bar {
-    width: 350px;
+    width: 100%;
 }
 
 .login_nav {
@@ -147,7 +147,7 @@ textarea.form-control {
 
 .navbar1 {
     border: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .navbar2 {
@@ -162,7 +162,7 @@ textarea.form-control {
 .caption_onLambo {
     position: absolute;
     top: 0px;
-    right: 100px;
+    right: 90px;
 }
 
 .caption_onLambo h4 {
@@ -269,4 +269,13 @@ textarea.form-control {
 
 .makeFormControl .form-control{
     margin-left: 8px;
+}
+
+.xsmallAdPic{
+    width: 100%;
+    height: auto;
+}
+
+.logoSm{
+    font-size: 14px;
 }

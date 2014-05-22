@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row">
-	<div class="col-xs-9">
+	<div class="col-md-9">
 		<div class="panel productNameAndPrice">
 			<div class="panel-body">
 				<h3>{{ $advert->title }}</h3>
@@ -10,9 +10,9 @@
 		</div>
 		<!--End productNameAndPrice-->
 	</div>
-	<!--End col-xs-9-->
+	<!--End col-md-9-->
 
-	<div class="col-xs-3">
+	<div class="col-md-3">
 		<div class="panel productNameAndPrice" ng-app="myApp">
 			<div class="panel-body" ng-app="myController">
 				<h3 class="text-center">£{{ $advert->price }}</h3>
@@ -20,15 +20,15 @@
 		</div>
 		<!--End productNameAndPrice-->
 	</div>
-	<!--End col-xs-3-->
+	<!--End col-md-3-->
 </div><!--End row-->
 
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-md-6">
 		<img class="img-responsive img-thumbnail" src="/images/{{$image->image}}" style="width: 455px; height: 343px;">
     </div>
 
-     <div class="col-xs-3">
+     <div class="col-md-3">
 		<div class="interactionInfo">
 			<p>Created: {{$advert->created_at}}</p>
 
@@ -36,10 +36,10 @@
 		</div>
 	</div>
 
-	<!--End col-xs-2-->
-	<div class="col-xs-3">
+	<!--End col-md-2-->
+	<div class="col-md-3">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-md-12">
 				<div class="panel panel-default productDetails">
 					<div class="panel-heading"><h5>Vechicle Specification</h5></div>
 					<ul class="list-group">
@@ -53,15 +53,15 @@
 				</div>
 				<!--End panel-->
 			</div>
-			<!--End col-xs-6-->
+			<!--End col-md-6-->
 		</div>
 		<!--End row-->
 	</div>
-	<!--End col-xs-5-->
+	<!--End col-md-5-->
 </div><!--End row-->
 
 <div class="row">
-	<div class="col-xs-9">
+	<div class="col-md-9">
 		<div class="well descriptionWell">
 			<h4>Description:</h4>
 			<p>
@@ -69,8 +69,8 @@
 			</p>
 		</div>
 	</div>
-	<!--End col-xs-4-->
-	<div class="col-xs-3">
+	<!--End col-md-4-->
+	<div class="col-md-3">
 
 		@if(isset($dealer))
 		<div class="well descriptionWell">

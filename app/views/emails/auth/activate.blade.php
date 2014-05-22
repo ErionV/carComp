@@ -5,3 +5,5 @@ An account has been created for you at ezaria.co.uk (carComp)
 Please visit this url to activate your account.
 <br><br>
 {{ $link }}
+
+

@@ -16,7 +16,7 @@
 <!--This is the form for uploading a new advert-->
 {{ Form::open(['route' => 'post_postad', 'method' => 'POST', 'files' => true, 'class'=>'form-signup']) }}
 <div class="row">
-	<div class="col-xs-9">
+	<div class="col-md-9">
 		<div class="panel productNameAndPrice">
 			<div class="panel-body">
 				<h3>
@@ -26,7 +26,7 @@
 		</div>
 	</div>
 
-	<div class="col-xs-3">
+	<div class="col-md-3">
 		<div class="panel productNameAndPrice">
 			<div class="panel-body">
 				<h3 class="text-center">
@@ -38,60 +38,60 @@
 </div>
 
 <div class="row">
-	<div class="col-xs-6">
+	<div class="col-md-6">
 		<!--     To be added if multiple picture needed     ['multiple' => true])-->
 
 		<img id="uploadPreview" style="width: 455px; height: 343px;"/>
 
 
 	</div>
-	<div class="col-xs-3">
+	<div class="col-md-3">
 		<div class="interactionInfo">
 			<p>Created: </p>
 
 			<p>Last Updated: </p>
 		</div>
 	</div>
-	<div class="col-xs-3">
+	<div class="col-md-3">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-md-12">
 				<div class="panel panel-default productDetails">
 					<div class="panel-heading"><h5>Vechicle Specification</h5></div>
 					<ul class="list-group postAdsInputs">
 						<li class="list-group-item">
-							<label class="col-xs-4">Make:</label>
-							<div class="col-xs-8 makeFormControl">
+							<label class="col-xs-3 col-md-4">Make:</label>
+							<div class="col-xs-9 col-md-8 makeFormControl">
 								{{ Form::select('make', $car_make_list, null,['class' => 'form-control']) }}
 							</div>
 						</li>
 						<li class="list-group-item">
-							<label class="col-xs-4">Model: </label>
-							<div class="col-xs-8">
+							<label class="col-xs-3 col-md-4">Model: </label>
+							<div class="col-xs-9 col-md-8">
 								{{ Form::text('model', null, ['class'=>'form-control', 'placeholder'=>'Model']) }}
 							</div>
 						</li>
 						<li class="list-group-item">
-							<label class="col-xs-4">Colour:</label>
-							<div class="col-xs-8">
+							<label class="col-xs-3 col-md-4">Colour:</label>
+							<div class="col-xs-9 col-md-8">
 								{{ Form::text('colour', null, ['class'=>'form-control', 'placeholder'=>'Colour']) }}
 							</div>
 						</li>
 						<li class="list-group-item">
-							<label class="col-xs-4">Transmission:</label>
-                            <div class="col-xs-8 makeFormControl">
+							<label class="col-xs-3 col-md-4">Transmission:</label>
+                            <div class="col-xs-9 col-md-8 makeFormControl">
 								{{ Form::select('gearbox', $car_transmission_list, null, ['class'=>'form-control']) }}
 							</div>
 						</li>
 
 						<li class="list-group-item">
-							<label class="col-xs-4">Mileage:</label>
-							<div class="col-xs-8">
+							<label class="col-xs-3 col-md-4">Mileage:</label>
+							<div class="col-xs-9 col-md-8">
 								{{ Form::text('mileage', null, ['class'=>'form-control', 'placeholder'=>'Mileage']) }}
 							</div>
 						</li>
 						<li class="list-group-item">
-							<label class="col-xs-4">Fuel Type:</label>
-                            <div class="col-xs-8 makeFormControl">
+							<label class="col-xs-3 col-md-4">Fuel Type:</label>
+                            <div class="col-xs-9 col-md-8 makeFormControl">
 								{{ Form::select('fuel_type', $car_fuelType_list, null, ['class'=>'form-control']) }}
 							</div>
 						</li>
@@ -110,7 +110,7 @@
 </div>
 
 <div class="row">
-	<div class="col-xs-9">
+	<div class="col-xs-12 col-md-9">
 		<div class="well descriptionWell">
 			<h4>Description:</h4>
 
@@ -119,10 +119,16 @@
 			</p>
 		</div>
 	</div>
-	<div class="col-xs-3">
+	<div class="hidden-xs col-md-3">
 		{{ Form::submit('Post Ad!',['class' => 'btn btn-primary pull-right submitBut']); }}
 	</div>
 </div>
+<div class="row">
+    <div class="col-xs-12 visible-xs">
+        {{ Form::submit('Post Ad!',['class' => 'btn btn-primary col-xs-12']); }}
+    </div>
+</div>
+
 
 
 {{Form::close()}}

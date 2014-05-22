@@ -10,7 +10,7 @@
 
 <body>
     @include('layouts.navigation')
-    @include('layouts.navigationTwo')
+
 
     <div class="container">
 

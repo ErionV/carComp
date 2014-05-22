@@ -4,11 +4,11 @@
     @if($compareList->count())
         <div class="row">
         <!--        Empty div to move the pictures accross-->
-            <div class="col-xs-2">
+            <div class="col-md-2">
             </div>
 
             @foreach($compareList as $ad)
-                <div class="col-xs-2">
+                <div class="col-md-2">
 	                <a href="/ad/{{$ad->advert->id}}">
                         <img class="img-thumbnail" src="/images/{{CarPics::where('advert_id',$ad->advert->id)->first()->image}}">
 	                </a>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-2">
+            <div class="col-md-2">
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Price:</strong></li>
                     <li class="list-group-item"><strong>Make:</strong></li>
@@ -31,7 +31,7 @@
             </div>
 
             @foreach($compareList as $ad)
-                <div class="col-xs-2 compareInfo">
+                <div class="col-md-2 compareInfo">
                     <ul class="list-group">
                         <li class="list-group-item">£{{$ad->advert->price}}</li>
                         <li class="list-group-item">{{$ad->advert->make}}</li>
