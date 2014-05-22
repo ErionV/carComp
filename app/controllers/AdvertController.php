@@ -12,10 +12,22 @@ class AdvertController extends BaseController
 			->lists('car_make', 'car_make'), '' => 'Make '];
 
         //Array of transmissions for dropdown
-        $car_transmission_list = ['Automatic', 'Manual', 'Semi-Auto'];
+        $car_transmission_list = [];
+		$ctl = ['Automatic', 'Manual', 'Semi-Auto'];
+		foreach($ctl as $ct)
+		{
+			$car_transmission_list = array_add($car_transmission_list, $ct, $ct);
+		}
+
 
         //Array of fuel types for dropdown
-        $car_fuelType_list = ['Bio-Fuel', 'Electric', 'Diesel', 'Petrol', 'Hybrid', 'LPG'];
+		$car_fuelType_list = [];
+        $cftl = ['Bio-Fuel', 'Electric', 'Diesel', 'Petrol', 'Hybrid', 'LPG'];
+		foreach($cftl as $cf)
+		{
+			$car_fuelType_list = array_add($car_fuelType_list, $cf, $cf);
+		}
+
 
 		return View::make('advert.postAdvert')
 			->with('car_make_list', $car_make_list)
@@ -159,7 +171,6 @@ class AdvertController extends BaseController
 					->withInput()
 					->with('global', 'There is no advert with that title');
 			}
-
 		}
         else
         {

@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'DontCommittoGitWithActualPassword',
+	'password' => 'Albanian1991',
 
 	/*
 	|--------------------------------------------------------------------------

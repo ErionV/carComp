@@ -22,3 +22,7 @@ function PreviewImage() {
         document.getElementById("uploadPreview").src = oFREvent.target.result;
     };
 };
+
+
+
+
